@@ -1,0 +1,14 @@
+main{
+    background-color: black;
+}
+div{
+    display: block; margin: auto;
+}
+
+body{
+    background-color: lightgrey
+}
+
+#card{
+    margin-left: 0;
+}

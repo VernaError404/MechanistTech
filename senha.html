@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="senha.js">
+    <link rel="stylesheet" href="senha.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>  
+    <link rel="shortcut icon" href="https://images.vexels.com/media/users/3/157675/isolated/lists/4e60fa416a33f12786f83f4a29c095e5-chave-inglesa-e-icone-de-engrenagem.png" type="image/x-icon">
+
+</head>
+<body>
+  
+    <h3>‎ ‎ ‎</h3>
+  
+   <main>
+
+
+<div class="main">
+            <h1>Login</h1>
+            <h3>Coloque sua senha</h3>
+            <form action="C:\Users\RaulRamosSoares\Documents\MechanistTech\mknt_princ.html">
+                  <label for="first">
+                        Usuário:
+                  </label>
+                  <input type="text" 
+                         id="first" 
+                         name="first" 
+                         placeholder="Coloque seu usuário" required>
+
+                  <label for="password">
+                        Password:
+                  </label>
+                  <input type="password"
+                         id="password" 
+                         name="password"
+                         placeholder="Coloque sua senha" required>
+
+                  <div class="wrap">
+                        <button type="submit" 
+                        onclick="alert(Correta)">
+                          Confirmar
+                        </button>
+                  </div>
+            </form>
+           
+      </div>
+
+
+
+
+
+    
+   </main>
+  <script>
+var password=document.querySelector("#password").value
+console.log(password)
+document.querySelector("button").onclick = function(){myFunction()};
+
+function myFunction()
+{
+    if(password=="wholesalemurder")
+    {
+        alert("Senha Correta");
+    }
+    
+}
+
+
+
+  </script>  
+</body>
+
+</html>
+
+
+<!-- addEventListener ("submit",
+    function(event){
+        if (password=="wholesalemurder"){
+            alert("Correta")
+            console.log("teste")
+        } -->
